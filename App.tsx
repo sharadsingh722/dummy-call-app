@@ -118,7 +118,7 @@ function AppContent() {
         <Text style={styles.label}>Call state</Text>
         <Text style={styles.value}>{callStatusLine}</Text>
 
-        <Text style={styles.label}>FCM token (this device)</Text>
+        <Text style={styles.label}>FCM t oken (this device)</Text>
         <Text style={styles.value} selectable>
           {token || '(tap "Get token")'}
         </Text>
